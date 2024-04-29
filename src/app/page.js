@@ -3,8 +3,10 @@ import HomeCoverSection from "../components/Home/HomeCoverSection";
 import FeaturedPosts from "../components/Home/FeaturedPosts";
 import RecentPosts from "../components/Home/RecentPosts";
 
+export const runtime = 'edge';
+
 export default function Home() {
-  console.log('hi')
+  
   return (
     <main className="flex flex-col items-center justify-center">
       <HomeCoverSection blogs={allBlogs} />
